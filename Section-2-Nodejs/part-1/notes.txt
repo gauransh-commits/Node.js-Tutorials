@@ -1,0 +1,13 @@
+Node.js is a  project developed by Ryan Dahl which is the open source of V8 engine of chrome embedded into a C++ program.
+
+Node.js: JS runtime environment
+
+Node.js is used to run Javascript outside of the browser 
+
+Advantages:
+    Used to Build
+    1. Web servers
+    2. CLI Tools
+    3. IOS and Android 
+    4. IoT and Watch apps
+
