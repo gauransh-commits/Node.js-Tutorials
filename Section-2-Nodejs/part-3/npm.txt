@@ -1,0 +1,21 @@
+npm ---> node package manager
+
+Package: @types/node ---> external package
+
+package.json ---> config file for the project  
+    command - npm init
+
+npm install @types/node
+    this command installs the dependency @types/node
+    also a new folder node_modules is also created
+    npm i package_name ---> npm fetches the package from the internet and stores it's source code inside the node_modules folder
+    this node_module is not pushed to github because of bulky these folders are
+    instead only the package.json is pushed so that any user who wants to install the dependencies can install them using the package.json file
+
+package-lock.json ---> this file maintains the dependencies of dependencies. this file stores the information about the dependencies of different projects with each other
+
+    Project A --> Project B --> Project C and Project D
+    Installing Project B will also instal C and D
+
+
+ 
