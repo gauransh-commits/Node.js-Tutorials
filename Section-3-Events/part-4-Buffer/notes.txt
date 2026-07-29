@@ -1,0 +1,7 @@
+Buffer ---> a temporary storage area for binary data 
+It is used to handle raw data efficiently since Node.js does not support binary manipulation
+Used mostly when dealing with file streams, network data, and binary protocols.
+
+In JS strings are UTF-16 encoded, making direct binary data handling inefficient.
+Buffers store binary data outside v8's heap.
+useful in File System (fs module), Networking, Streams (handling chunks of data).
