@@ -1,0 +1,16 @@
+events trigger specific responses
+the EventEmmiter class in the event module is used to handle events 
+Events in Node.js work like a publisher-subscriber (pub-sub) model where an event is emitted and event listeners (handlers) respond to it
+
+libuv --> cross-platform C library that helps in the event-driven, non-blocking I/O model of Node.js
+
+cross platform library means that it is designed to function on different operating systems
+Example of cross platform library can be CrossWindow for C++ which needs to be downloaded when we want to develop a graphical application and specifically want to write the code and compile it for windows, macOS, linux and other systems
+The code remains the same for all the systems, we just need to compile the same code for every system sparately.
+
+Much of Node.js core API is built around an idiomatic asynchronous event-driven Architecture.
+This Architecturec consists of objects called "emitters" which emit named events that cause function objects (""listeners) to be called.
+
+Events help in asynchronous programming without callback hell.
+Used in real-time applications like chat apps, notifications
+Core modules like fs, http, and stream use events internally.
