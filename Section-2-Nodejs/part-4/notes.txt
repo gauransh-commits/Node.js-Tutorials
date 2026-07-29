@@ -1,0 +1,36 @@
+The Sync/Synchronous function tells Node.js to block the execution until the directories are created.
+
+fs.appendFileSync is an example of Synchronous function which waits for the write operation to be completed before moving on to the next line of the code
+
+Whereas, The Async/Asynchronous is a non-blocking method which initiates the write operation and immediately moves to the next line of code without waiting for the write to finish.
+
+
+
+In a blocking operation (Synchronous) -> the function returns the content immediately which can be stored in a variable and can be used in the next line.
+Whereas,
+In a Non-blocking operation (Asynchronous) -> If we try to store the data in a variable using a callback function then it will immediately return undefined. Since callback functions "call back" to the code with the result once the background task is finished. Direct assignment of content in a variable is not allowed.
+
+
+NodeJs Architecture:-
+
+    NodeJs Server:
+
+        Event Queue - this enqueues all the new requests coming to the server
+        Event Loop - this listens to the Event Queue. Then while listeninig to the event   
+        queue, it picks up the requests in a FIFO order and executes them one by one.
+        
+                    The event loop also checks whether the request is a blocking operation 
+                    or a non-blocking operation.
+
+                    Situation 1 (blocking operation): If a request is a blocking operation
+                     then the rest of the users will have to face downtime.
+
+                    Situation 2 (Non blocking operation(CPU intensive task))): a non-
+                    blocking operation is assigned to a thread pool which consists of 
+                    multiple worker threads.
+                    The request is assigned to an ideal thread which will work on that 
+                    particular thread. This way, the remaining requests can also be 
+                    executed.
+
+                    Once the execution is completed, the thread will be callbacked and in 
+                    the event loop and the response is given to the user.
