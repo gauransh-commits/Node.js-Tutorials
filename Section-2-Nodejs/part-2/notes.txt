@@ -1,0 +1,17 @@
+
+Types of Modules
+    1. Built in Modules
+    2. 3rd Pary (External Modules) - npm install
+    3. Custom (my own) modules
+
+Built in Modules
+    -> File System (fs) module
+
+fs.readFileSync is used to console.log the text in the notes.txt File
+
+Wrapper Function(exports,require,module,__filename,__dirname) {}
+the index.js file or the main file is wrapped inside this wrapper Function.
+
+require('<module_name>') ----> 3rd party installation
+require('fs') ----> Built in module
+require('./math.js') ----> custom module                 
