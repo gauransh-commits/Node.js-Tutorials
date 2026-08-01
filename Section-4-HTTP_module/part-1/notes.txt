@@ -1,0 +1,33 @@
+HTTP Server --> Hypertext Transfer protocol
+
+Client sends a request, Server makes a Response (Req-Res cycle)
+
+Server can - 1. Authenticate
+             2. Authorization
+             3. Validation
+             4. Process -> Database
+
+HTTP Methods - (GET, POST, PUT, PATCH, DELETE)
+Status codes - (404, 405, 200, 202, etc.)
+
+GET --> When client want to get some data from Server ( See tweets, watch video, see comments)
+POST --> When client want to send some data to Server ( Create tweets, videos, comments)
+PATCH --> When client wants to update some existing data
+DELETE --> When client wants to delete some data
+
+HTTP Status codes:
+    
+    200 --> Everything is OK
+    201 --> OK and Created
+    301 --> Redirect
+    400 --> Bad Request
+    404 --> Request not found
+    500 --> Server Error
+
+These Status codes help in defining what kind of response it is ( Success, Error, Redirect, )
+
+1xx --> Info Response
+2xx --> Success Response
+3xx --> Redirect
+4xx --> Client Error
+5xx --> Server Error
