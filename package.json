@@ -16,11 +16,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./Section-4-HTTP_module/part-2/index.js"
+    "start": "node --watch ./Section-4-HTTP_module/part-3/index.js"
   },
   "dependencies": {
     "@types/node": "^26.1.1",
+    "express": "^5.2.1",
     "prompt-sync": "^4.2.0"
-  },
-  "devDependencies": {}
+  }
 }
