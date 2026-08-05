@@ -1,0 +1,32 @@
+Semantic Versioning (SemVer)
+
+Bits - a.b.c (4.21.1)
+
+    4 --> Major
+    21 --> Minor
+    1 --> Patch
+
+PATCH --> Incremented for backward-compatible bug fixes. These updates address issues without adding new functionality or breaking anything.This means it does not affect compatibility
+
+MINOR --> Added a new feature but, old will also work
+        1. There is a new feature
+        2. Nothing will break
+
+        Minor is incremented when new functionality is added in a backward-compatible way.This means that the old code will still work but there is an added feature.
+
+MAJOR --> Breaking change, incremented when there are incompatible API changes. These changes may break existing functionality or require modifications in dependent code.
+
+Versioning is helpful because it helps in maintaining a version consistency between multiple systems 
+
+We can also a special expression which can be used to download the latest version without downloading it manually.
+This expression is called tilde(~).
+This expression will always tell express that whenever there is a bug fix.
+One thing to keep in mind is that the MAJOR and MINOR bits are fixed, which means it will only change the PATCH bit. 
+For eg: ~4.21.1, means --> change from 4.21.1 -> 4.21.x
+
+There is another special expression called carrot(^) which is used to tweek only the MINOR and PATCH bits
+For eg: ^4.21.1, means --> change from 4.21.1 -> 4.x.x, this means the version 5.0.0 will not be included.
+
+The packages are fetched from 'npmjs.com'. This is where all the packages are hosted.
+
+ 
