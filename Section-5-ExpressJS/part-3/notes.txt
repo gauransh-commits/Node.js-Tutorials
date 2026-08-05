@@ -1,0 +1,14 @@
+RESTFULL API
+Representational State Transfer
+
+It is an architecture style which is used to design backend
+
+Key principles of a RESTFUL API:
+
+    1. Communication happen in the HTTP
+    2. Statelessness --> There is no state in the server
+        If a user has a session with a browser, then the memory is restricted to store any information about the user.
+        Instead we have to use databases.
+    3. Client-Server architecture --> Separate application for both frontend(Client application) and backend(Server application)
+    4. Unifrom Interface --> implementation of methods in a predictable manner.
+    5. Cacheable --> responses should be Cacheable.so
