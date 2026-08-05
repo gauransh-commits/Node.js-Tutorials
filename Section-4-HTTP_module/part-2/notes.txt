@@ -1,0 +1,24 @@
+npm init
+npm i @types/node
+
+Components of a HTTP request
+    1. HTTP version type
+    2. a URL
+    3. an HTTP method
+    4. HTTP request headers
+    5. Optional HTTP body
+
+HTTP headers --> metadata in form of key-value pair. These can also contain metadata about the client
+
+HTTP request body (optional) --> mainly used in the POST request. This may contain information which needs to be submitted to the web Server.
+
+URL: https://www.google.com/contact-us?q=xyz&sort=desc
+
+    https --> Scheme
+    google.com --> naked domain/apex domain
+    www --> subdomain
+    contact-us --> Path 
+    ? --> Query separator
+    q=xyz&sort=desc --> Query Parameter
+
+We can also edit the value of "scripts" in our package-json file which will directly run the command.
