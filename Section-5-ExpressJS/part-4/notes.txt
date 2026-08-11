@@ -1,0 +1,20 @@
+To send an object as a response in Javascript, we have to use 'res.json' to send a JSON object.
+
+To install dependencies only inside the development mode then we can use -D to install that dependency.
+This means that this dependency will only be used inside the production server.
+
+We can also create custom headers by using the setHeader().
+it is a good practice to set header using 'x-abc'.
+
+parseInt is a global Javascript function that converts a string argument into an integer based on a specified radix(numeral base).
+It parses the string from left to right, ignoring leading whitespace, and stops at the first character that cannot be converted to a number.
+
+Radix (also known as the base) is the number of unique digits, including zero, used in a positional numeral system to represent numbers.
+
+404 is the status code for bad request 
+
+isNaN() is an in-built Javascript method used to determine if a value is NaN(Not a number) or it can be coerced into a valid number.
+
+Middlewares like express.json is used in HTTP methods like PUT PATCH or POST requests.
+express.json() is used to register a built-in middleware in Express.js that automatically parses incoming HTTP request bodies containing JSON payloads.
+Whenever the content-type header is set to application/json, this middleware converts the JSON into a javascript object and attaches it to the req.body property.
