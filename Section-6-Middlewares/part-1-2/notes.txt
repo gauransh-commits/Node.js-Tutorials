@@ -1,0 +1,34 @@
+Suppose we have a user and he makes a request, this request is made with the help of the app variable since it is using the Express server.
+This means that all the request that comes to the server goes to this app and this app handles all the requests.
+
+This app can also said to be a request handler. So it handles all the requests and routes every request to an appropriate route.
+
+Everything in this step is handled by Express.
+
+Now between this routing there exists some custom middlewares that perform specific functions.
+This means everytime a request is send, it won't be sent to the route directly, rather it would be send to that middleware.
+
+So in short, middlewares help us to write interceptors.
+
+Features of a middleware:
+(There can be n number of middlewares)
+    1. It can read the request
+    2. This middleware can terminate req res cycle
+    3. middlewares can forward the request to other middlewares.
+
+In our book store management project, app.use(express.json()) acts like a parser based on the content-type(application/json).
+Now this parser can forward the request to another middleware by calling the next() function.
+
+The middleware app.use(express.json()) calls the next middleware internally, that is why we have not used the next() convention inside this middleware.
+
+There can be three types of middleware:
+    1. Route level middleware
+    2. Global middleware
+    3. Router middleware
+
+There can be a series of middlewares that can be called inside a function.
+
+Express performs path stripping before sending the request to a middleware.
+In the index.js file, the global middleware for route /books requests a url from the request body. In return it gets the URL /. 
+This is because when you define a middleware with a specific path like app.use('/books', ...), Express matches the URL prefix /books and then strips it off before passing the request to the middleware function. 
+So the remaining URL is / and that is why in the console it says that the request is for / route.
