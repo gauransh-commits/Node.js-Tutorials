@@ -1,0 +1,4 @@
+Modules in javascript are used in three different ways:
+    1. Built in modules require(node:<>)
+    2. 3rd party express
+    3. User defined Modules require('./')
