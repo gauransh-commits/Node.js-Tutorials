@@ -50,7 +50,6 @@ Request validation
 API testing
 Project structure
 Scalable application architecture
-
 🏗️ Application Architecture
 
 The course introduces the Model-View-Controller (MVC) architecture and other concepts used to organize backend applications.
@@ -62,7 +61,6 @@ Scalable
 Reusable
 Testable
 Easy to understand
-
 🗄️ Databases
 
 A major part of the course focuses on working with both SQL and NoSQL databases.
@@ -114,7 +112,6 @@ Schema design
 Data modeling
 Aggregation pipeline
 Reporting and data processing
-
 🔐 Authentication and Authorization
 
 Security is an important part of backend development.
@@ -131,7 +128,6 @@ Role-based access control (RBAC)
 Express authentication middleware
 Authorization middleware
 Secure API design
-
 🖥️ EJS and Server-Side Rendering
 
 The course also explores server-side rendered applications using EJS.
@@ -144,7 +140,6 @@ Dynamic HTML rendering
 Passing data from backend to views
 Integrating EJS with Express.js
 Understanding where server-side rendering fits into modern applications
-
 🐳 Docker
 
 Docker is used throughout the course to understand containerized development and deployment.
@@ -160,7 +155,6 @@ Containerizing Node.js applications
 Running PostgreSQL with Docker
 Development environments
 Production containerization
-
 ☁️ Deployment and AWS
 
 The course introduces production deployment workflows and cloud infrastructure concepts.
@@ -175,7 +169,6 @@ AWS ECR
 Container image management
 Deployment workflows
 Production considerations
-
 ⚙️ System Design Fundamentals
 
 The course also introduces important system design concepts used when building scalable applications.
@@ -206,7 +199,6 @@ Blue-green deployments
 Rolling updates
 Zero/minimal downtime deployments
 Production release workflows
-
 🧪 API Testing
 
 Postman is used to test and debug backend APIs.
@@ -220,7 +212,6 @@ Sending request bodies
 Authentication testing
 Testing protected endpoints
 Debugging API responses
-
 🛠️ Technologies and Tools
 
 The major technologies covered in this course include:
@@ -239,6 +230,49 @@ Docker	Containerization
 Postman	API testing
 AWS ECR	Container image registry
 Git	Version control
+📂 Repository Structure
+
+The repository will evolve as I progress through the course.
+
+A possible structure is:
+
+backend-development-bootcamp/
+│
+├── javascript/
+│   ├── fundamentals/
+│   ├── async-javascript/
+│   ├── promises/
+│   └── event-driven-programming/
+│
+├── node-express/
+│   ├── basics/
+│   ├── routing/
+│   ├── middleware/
+│   └── rest-api/
+│
+├── databases/
+│   ├── postgresql/
+│   ├── drizzle/
+│   ├── mongodb/
+│   └── mongoose/
+│
+├── authentication/
+│   ├── sessions/
+│   ├── jwt/
+│   └── authorization/
+│
+├── ejs/
+│
+├── docker/
+│
+├── system-design/
+│
+├── deployment/
+│   └── aws/
+│
+├── projects/
+│
+└── README.md
 
 🚀 Learning Goals
 
@@ -291,7 +325,6 @@ JavaScript developers moving into Node.js
 Developers preparing for backend technical interviews
 Developers who want to strengthen their database knowledge
 Anyone interested in understanding how modern web backends work
-
 🧠 Learning Approach
 
 The focus of this repository is learning by building.
@@ -335,7 +368,31 @@ Deployment
   ↓
 Production
 
+📈 Progress
 
+I will track my progress through this repository as I complete different sections of the course.
+
+            JavaScript Fundamentals
+ Node.js Fundamentals
+ Express.js
+ MVC Architecture
+ REST APIs
+ PostgreSQL
+ Drizzle ORM
+ Database Relationships
+ Database Indexes
+ Session Authentication
+ JWT Authentication
+ Authorization / RBAC
+ EJS
+ MongoDB
+ Mongoose
+ MongoDB Aggregation
+ System Design Fundamentals
+ Docker
+ AWS ECR
+ Production Deployment
+ Final Backend Project
 📚 Course Topics at a Glance
 JavaScript
    │
