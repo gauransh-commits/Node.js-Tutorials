@@ -1,0 +1,7 @@
+Model - View - Controller
+
+Views -> Whar user sees (React, HTML, CSS, JS, Static)
+Controller -> What needs to be done (CRUD operations) (Also called the middle layer)
+Models -> Database enitity (Controllers interact with these Models to perform CRUD operations)
+
+Views interact with the Controllers and request them to perform a specific task
