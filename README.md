@@ -1,242 +1,318 @@
-Complete Backend Development Bootcamp with Node.js and Modern Tooling
+# Node.js-Tutorials
 
-A hands-on journey into modern backend development using Node.js, Express.js, PostgreSQL, Drizzle ORM, MongoDB, JWT, Docker, and AWS.
+A collection of tutorials, notes, exercises, and projects covering **Node.js and modern backend development**.
 
-This repository contains my learning notes, exercises, projects, and implementations from the Complete Backend Development Bootcamp with Node.js and Modern Tooling.
+This repository documents my journey through backend development, starting with JavaScript fundamentals and progressing toward building, securing, scaling, containerizing, and deploying production-ready backend applications.
 
-The goal of this course is to build a strong understanding of backend development fundamentals and learn how to design, develop, secure, containerize, and deploy production-ready backend applications.
+---
 
-📚 About the Course
+## 📖 About
 
-This course takes a practical, step-by-step approach to backend development with Node.js.
+**Node.js-Tutorials** is a learning repository based on the **Complete Backend Development Bootcamp with Node.js and Modern Tooling**.
 
-It starts with the fundamentals of JavaScript required for backend development and gradually moves into building scalable applications, working with relational and NoSQL databases, implementing authentication and authorization, designing REST APIs, understanding system design concepts, and deploying applications using modern cloud and containerization tools.
+The goal is to develop a strong understanding of backend development using the modern JavaScript ecosystem and gain hands-on experience by building real-world applications.
 
-By the end of the course, the goal is to be comfortable building and deploying real-world backend applications.
+Throughout this repository, I will explore concepts such as:
 
-🎯 What I Will Learn
-JavaScript Fundamentals
+- JavaScript for backend development
+- Node.js
+- Express.js
+- REST APIs
+- MVC architecture
+- PostgreSQL
+- Drizzle ORM
+- MongoDB
+- Mongoose
+- Authentication and Authorization
+- JWT
+- Sessions
+- EJS
+- Docker
+- System Design
+- AWS ECR
+- Production Deployment
 
-Before working extensively with Node.js, the course covers important JavaScript concepts that are heavily used in backend development:
+---
 
-Variables and scope
-Functions
-Closures
-Callbacks
-Promises
-async/await
-Error handling
-Event-driven programming
-Asynchronous JavaScript
-Modules
+## 🎯 Learning Goals
 
-The focus is not just on writing JavaScript, but on understanding how it works internally and how those concepts apply to backend applications.
+The main goal of this repository is to understand how modern backend applications work and how to build them from the ground up.
 
-🟢 Node.js and Express.js
+By the end of this learning journey, I aim to be able to:
 
-Learn how to build backend applications and RESTful APIs using Node.js and Express.js.
+- Build backend applications using Node.js and Express.js
+- Design and build RESTful APIs
+- Structure applications using scalable architectures
+- Work with relational and NoSQL databases
+- Design database schemas and relationships
+- Implement authentication and authorization
+- Secure backend applications
+- Containerize applications using Docker
+- Understand fundamental system design concepts
+- Deploy backend applications
+- Debug and test APIs effectively
+- Build maintainable and production-ready backend systems
 
-Topics include:
+---
 
-Node.js fundamentals
-Express.js
-HTTP request/response cycle
-Routing
-Controllers
-Middleware
-Error handling
-REST API design
-Request validation
-API testing
-Project structure
-Scalable application architecture
-🏗️ Application Architecture
+## 🧠 Topics Covered
 
-The course introduces the Model-View-Controller (MVC) architecture and other concepts used to organize backend applications.
+### JavaScript Fundamentals
 
-The goal is to understand how to structure applications so that they remain:
-
-Maintainable
-Scalable
-Reusable
-Testable
-Easy to understand
-🗄️ Databases
-
-A major part of the course focuses on working with both SQL and NoSQL databases.
-
-PostgreSQL
-
-Learn how to work with PostgreSQL as a relational database.
+The foundation of backend development starts with understanding JavaScript deeply.
 
 Topics include:
 
-Database fundamentals
-Tables
-Columns
-Primary keys
-Foreign keys
-Relationships
-One-to-one relationships
-One-to-many relationships
-Many-to-many relationships
-Indexes
-Querying data
-Database schema design
-PostgreSQL with Docker
-Drizzle ORM
+- Variables and scope
+- Functions
+- Closures
+- Callbacks
+- Promises
+- `async/await`
+- Error handling
+- Modules
+- Event-driven programming
+- Asynchronous JavaScript
 
-Learn how to interact with PostgreSQL using Drizzle ORM.
+---
 
-Topics include:
+### 🟢 Node.js
 
-ORM fundamentals
-Schema definition
-Type-safe queries
-Migrations
-Relationships
-CRUD operations
-Indexes
-Database integration with Node.js
-MongoDB
-
-The course also introduces MongoDB to understand NoSQL databases and when they can be useful.
+Learn the fundamentals of Node.js and how JavaScript can be used to build server-side applications.
 
 Topics include:
 
-MongoDB fundamentals
-Collections and documents
-CRUD operations
-Mongoose
-Schema design
-Data modeling
-Aggregation pipeline
-Reporting and data processing
-🔐 Authentication and Authorization
+- Node.js runtime
+- Modules
+- File System
+- HTTP
+- Events
+- Streams
+- Environment variables
+- Package management
+- Asynchronous programming
 
-Security is an important part of backend development.
+---
 
-The course covers different approaches to authentication and authorization, including:
+### 🚂 Express.js
 
-Authentication vs authorization
-Session-based authentication
-Stateless authentication
-JWT authentication
-Access tokens
-Protected routes
-Role-based access control (RBAC)
-Express authentication middleware
-Authorization middleware
-Secure API design
-🖥️ EJS and Server-Side Rendering
-
-The course also explores server-side rendered applications using EJS.
+Learn how to build web servers and REST APIs using Express.js.
 
 Topics include:
 
-Templating engines
-EJS fundamentals
-Dynamic HTML rendering
-Passing data from backend to views
-Integrating EJS with Express.js
-Understanding where server-side rendering fits into modern applications
-🐳 Docker
+- Express fundamentals
+- Routing
+- Controllers
+- Middleware
+- Error handling
+- Request and response objects
+- REST API design
+- API validation
+- Project structure
 
-Docker is used throughout the course to understand containerized development and deployment.
+---
 
-Topics include:
+## 🏗️ MVC Architecture
 
-Docker fundamentals
-Images
-Containers
-Dockerfiles
-Docker Compose
-Containerizing Node.js applications
-Running PostgreSQL with Docker
-Development environments
-Production containerization
-☁️ Deployment and AWS
+Learn how to organize backend applications using the **Model-View-Controller (MVC)** pattern.
 
-The course introduces production deployment workflows and cloud infrastructure concepts.
+The focus is on writing code that is:
 
-Topics include:
+- Maintainable
+- Reusable
+- Scalable
+- Testable
+- Easy to understand
 
-Production environments
-Application deployment
-Docker-based deployment
-AWS fundamentals
-AWS ECR
-Container image management
-Deployment workflows
-Production considerations
-⚙️ System Design Fundamentals
+---
 
-The course also introduces important system design concepts used when building scalable applications.
+## 🗄️ Databases
+
+This repository covers both **SQL and NoSQL databases**.
+
+### PostgreSQL
 
 Topics include:
 
-Reverse Proxy vs Forward Proxy
+- Relational databases
+- Tables
+- Primary keys
+- Foreign keys
+- Relationships
+- One-to-one relationships
+- One-to-many relationships
+- Many-to-many relationships
+- Indexes
+- Queries
+- Database schema design
+- PostgreSQL with Docker
 
-Understanding the difference between:
+### Drizzle ORM
 
-Forward proxies
-Reverse proxies
-Their use cases
-How reverse proxies fit into web architectures
-Scaling
+Learn how to work with PostgreSQL using **Drizzle ORM**.
 
-Understanding:
+Topics include:
 
-Vertical scaling
-Horizontal scaling
-When each approach is appropriate
-Challenges associated with scaling applications
-Deployment Strategies
+- ORM fundamentals
+- Schema definitions
+- Type-safe queries
+- CRUD operations
+- Migrations
+- Relationships
+- Indexes
 
-Exploring deployment strategies such as:
+### MongoDB
 
-Blue-green deployments
-Rolling updates
-Zero/minimal downtime deployments
-Production release workflows
-🧪 API Testing
+Explore NoSQL databases using **MongoDB**.
 
-Postman is used to test and debug backend APIs.
+Topics include:
 
-This includes:
+- Documents and collections
+- CRUD operations
+- MongoDB data modeling
+- Mongoose
+- Schema design
+- Aggregation pipeline
+- Data processing and reporting
 
-Sending HTTP requests
-Testing REST APIs
-Working with request headers
-Sending request bodies
-Authentication testing
-Testing protected endpoints
-Debugging API responses
-🛠️ Technologies and Tools
+---
 
-The major technologies covered in this course include:
+## 🔐 Authentication & Authorization
 
-Technology	Purpose
-JavaScript	Programming language
-Node.js	JavaScript runtime
-Express.js	Backend web framework
-PostgreSQL	Relational database
-Drizzle ORM	Type-safe database ORM
-MongoDB	NoSQL database
-Mongoose	MongoDB ODM
-JWT	Stateless authentication
-EJS	Server-side templating
-Docker	Containerization
-Postman	API testing
-AWS ECR	Container image registry
-Git	Version control
-📂 Repository Structure
+Security is an essential part of backend development.
 
-The repository will evolve as I progress through the course.
+Topics include:
 
-A possible structure is:
+- Authentication vs Authorization
+- Session-based authentication
+- Stateless authentication
+- JWT
+- Access tokens
+- Protected routes
+- Role-Based Access Control (RBAC)
+- Authentication middleware
+- Authorization middleware
+- Secure API design
 
-backend-development-bootcamp/
+---
+
+## 🖥️ EJS
+
+Explore server-side rendering using **EJS** and Express.js.
+
+Topics include:
+
+- Templating engines
+- EJS syntax
+- Dynamic HTML
+- Passing backend data to views
+- Server-side rendering
+- Integrating EJS with Express
+
+---
+
+## 🐳 Docker
+
+Learn how to containerize backend applications and create consistent development and production environments.
+
+Topics include:
+
+- Docker fundamentals
+- Images
+- Containers
+- Dockerfiles
+- Docker Compose
+- Node.js containers
+- PostgreSQL containers
+- Containerized development
+- Production containerization
+
+---
+
+## ⚙️ System Design
+
+Introduction to fundamental system design concepts used when building scalable applications.
+
+### Proxies
+
+- Forward Proxy
+- Reverse Proxy
+- Reverse Proxy use cases
+
+### Scaling
+
+- Vertical Scaling
+- Horizontal Scaling
+- Scaling challenges
+- When to scale
+
+### Deployment Strategies
+
+- Blue-Green Deployment
+- Rolling Updates
+- Production deployment workflows
+- Minimizing application downtime
+
+---
+
+## ☁️ AWS & Deployment
+
+Learn the fundamentals of deploying containerized backend applications.
+
+Topics include:
+
+- Production environments
+- Docker-based deployment
+- AWS fundamentals
+- AWS ECR
+- Container image management
+- Deployment workflows
+
+---
+
+## 🧪 API Testing
+
+**Postman** is used for testing and debugging APIs.
+
+Topics include:
+
+- HTTP requests
+- Request headers
+- Request bodies
+- Query parameters
+- Authentication
+- Protected endpoints
+- API debugging
+- Testing different API responses
+
+---
+
+## 🛠️ Technologies
+
+| Technology | Purpose |
+|---|---|
+| JavaScript | Programming Language |
+| Node.js | Backend Runtime |
+| Express.js | Web Framework |
+| PostgreSQL | Relational Database |
+| Drizzle ORM | Type-Safe ORM |
+| MongoDB | NoSQL Database |
+| Mongoose | MongoDB ODM |
+| JWT | Authentication |
+| EJS | Server-Side Templating |
+| Docker | Containerization |
+| Postman | API Testing |
+| AWS ECR | Container Registry |
+| Git | Version Control |
+
+---
+
+## 📂 Repository Structure
+
+The repository will grow as I progress through different backend development concepts.
+
+```text
+Node.js-Tutorials/
 │
 ├── javascript/
 │   ├── fundamentals/
@@ -244,10 +320,17 @@ backend-development-bootcamp/
 │   ├── promises/
 │   └── event-driven-programming/
 │
-├── node-express/
+├── node/
 │   ├── basics/
+│   ├── modules/
+│   ├── filesystem/
+│   ├── http/
+│   └── events/
+│
+├── express/
 │   ├── routing/
 │   ├── middleware/
+│   ├── controllers/
 │   └── rest-api/
 │
 ├── databases/
@@ -273,178 +356,3 @@ backend-development-bootcamp/
 ├── projects/
 │
 └── README.md
-
-🚀 Learning Goals
-
-By completing this course, I aim to be able to:
-
-Understand backend development fundamentals
-Build backend applications using Node.js
-Develop RESTful APIs using Express.js
-Structure applications using scalable architecture
-Work confidently with PostgreSQL
-Use Drizzle ORM for type-safe database operations
-Understand relational database design
-Work with MongoDB and Mongoose
-Implement CRUD operations
-Build authentication systems using sessions and JWT
-Implement role-based authorization
-Write reusable Express middleware
-Test and debug APIs using Postman
-Containerize applications using Docker
-Understand fundamental system design concepts
-Deploy containerized applications
-Understand basic AWS deployment workflows
-Build secure, maintainable, and scalable backend applications
-📋 Prerequisites
-
-The course is designed for beginners.
-
-Required
-Basic knowledge of JavaScript
-Understanding of variables, functions, loops, and basic programming concepts
-A computer with internet access
-Willingness to write, break, debug, and improve code
-Not Required
-Prior Node.js experience
-Prior Express.js experience
-Professional backend development experience
-Advanced database knowledge
-Prior Docker experience
-Prior AWS experience
-
-Everything else is introduced throughout the course.
-
-👨‍💻 Who This Course Is For
-
-This course is suitable for:
-
-Beginners who want to become backend developers
-Frontend developers who want to learn backend development
-JavaScript developers moving into Node.js
-Developers preparing for backend technical interviews
-Developers who want to strengthen their database knowledge
-Anyone interested in understanding how modern web backends work
-🧠 Learning Approach
-
-The focus of this repository is learning by building.
-
-Instead of only watching lectures, I will use this repository to:
-
-Learn the concept
-Implement it myself
-Experiment with the code
-Break things intentionally
-Debug errors
-Build small features
-Apply concepts to projects
-Document what I learned
-
-The objective is to understand why things work, not just memorize how to implement them.
-
-🏆 Final Goal
-
-By the end of this course, I want to be capable of taking a backend application from an initial idea to a production-ready system.
-
-That means being able to:
-
-Idea
-  ↓
-Design
-  ↓
-Database Schema
-  ↓
-Backend Architecture
-  ↓
-REST API
-  ↓
-Authentication & Authorization
-  ↓
-Testing
-  ↓
-Dockerization
-  ↓
-Deployment
-  ↓
-Production
-
-📈 Progress
-
-I will track my progress through this repository as I complete different sections of the course.
-
-            JavaScript Fundamentals
- Node.js Fundamentals
- Express.js
- MVC Architecture
- REST APIs
- PostgreSQL
- Drizzle ORM
- Database Relationships
- Database Indexes
- Session Authentication
- JWT Authentication
- Authorization / RBAC
- EJS
- MongoDB
- Mongoose
- MongoDB Aggregation
- System Design Fundamentals
- Docker
- AWS ECR
- Production Deployment
- Final Backend Project
-📚 Course Topics at a Glance
-JavaScript
-   │
-   ├── Fundamentals
-   ├── Async/Await
-   ├── Promises
-   └── Event-Driven Programming
-   │
-   ▼
-Node.js
-   │
-   └── Express.js
-          │
-          ├── Routing
-          ├── Controllers
-          ├── Middleware
-          └── REST APIs
-          │
-          ▼
-      Databases
-       ┌───────┴───────┐
-       ▼               ▼
- PostgreSQL          MongoDB
-       │               │
-   Drizzle          Mongoose
-       │               │
-       └───────┬───────┘
-               ▼
-       Authentication
-               │
-          ┌────┴────┐
-          ▼         ▼
-       Sessions    JWT
-          │         │
-          └────┬────┘
-               ▼
-        Authorization
-               │
-               ▼
-          System Design
-               │
-               ▼
-            Docker
-               │
-               ▼
-             AWS
-               │
-               ▼
-          Deployment
-
-⭐ Outcome
-
-This repository represents my journey toward becoming a stronger backend developer by learning how modern backend systems are designed, implemented, secured, tested, containerized, and deployed.
-
-Learn → Build → Break → Debug → Understand → Improve
