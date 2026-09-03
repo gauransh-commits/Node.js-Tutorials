@@ -1,0 +1,16 @@
+# docker compose up -> command used to pull the image 
+# make sure that docker desktop is running in the background
+
+# we can use the docker compose up -d command so that the container runs in the background
+
+# docker compose down -> command to stop a docker container
+
+services:
+  postgres:
+    image: postgres:17.4
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
