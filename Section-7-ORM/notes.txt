@@ -1,0 +1,42 @@
+ORM (Object Relational Mapper) is a piece of software designed to translate between the data representations used by databases and those used in object-oriented programming.
+
+It acts a middle layer
+
+Examples of ORM are:
+
+    JS - MongoDB ( mongoose )
+    Python-Postgres ( SQLAlchemy )
+    
+    Prisma:
+    JS- MongoDB
+    JS - MySQL
+    JS - Postgres
+
+    For this tutorial we will be using Drizzle
+    Drizzle:
+    JS - Postgres
+    JS - MySQL
+
+    Why we use Drizzle instead of Prisma because:
+        --> Prisma has some performance issues when dealing with a foreign Relational Join.
+                This means that when we are trying to do multiple connections simultaneously then there are some performance issues.
+
+We can use SupaBase 
+
+
+drizzle-orm -> send and recieve data from the database
+drizzle-kit -> send your schema, UI for the DB
+
+npm i drizzle-orm pg -> this command installs the drizzle-orm library using a dedicated postgres driver 'pg'.
+npm i drizzle-kit -> a tool used by developers to manage database schemas, generate migrations, introspect existing databases, and launch local GUIs.
+npx drizzle-kit push -> this command directly applies the typescript-defined database schema changes to your live database without generating any itermediate SQL migration flies.
+
+npx (node packager execute) is used temporarily download and execute binary packages.
+
+choco install mkcert -> this command is used to fetch the mkcert exe file from the internet and place it on your system so your terminal knows how to run the mkcert command
+
+mkcert -install -> this command is used to actually install the installed program to generate a local certificate authority (CA) and registers it with the OS and web browsers.
+
+npx drizzle-kit studio -> this command launches drizzle studio, a lightweight, web-based GUI that allows to view and manage your database contents directly from the browser.
+
+npm i dotenv -> installs the dotenv library into a project, enabling a Node.js app to load environment variables from a local .env file into process.env
